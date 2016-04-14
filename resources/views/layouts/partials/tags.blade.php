@@ -39,6 +39,11 @@
         </div>
 
         <div class="form-group">
+            {!! Form::label('Tag color:') !!}
+            {!! Form::select('color', array('Blue'=>'blue', 'Red'=>'red', 'Green'=>'green', 'Yellow'=>'yellow')) !!}
+        </div>
+
+        <div class="form-group">
             {!! Form::submit('Create',
             array('class'=>'btn btn-black')) !!}
         </div>
