@@ -47,7 +47,6 @@ class TagController extends Controller {
 		$input['owner_id'] = $user_id;
 		$input['created_at'] = $date;
 		$input['updated_at'] = $date;
-		$input['color'] = 'blue';
 
 		$tag = Tag::create($input);
 		flash()->info('Tag successfully created!');
