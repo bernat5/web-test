@@ -77,6 +77,12 @@
 				locale: 'ca'
 			});
 		});
+		$(function() {
+			$filters = $('#stateFilter');
+			$filters.on('change', '#state', function() {
+				$filters.submit();
+			});
+		});
 	</script>
 </body>
 </html>

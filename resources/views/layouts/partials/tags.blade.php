@@ -40,7 +40,7 @@
 
         <div class="form-group">
             {!! Form::label('Tag color:') !!}
-            {!! Form::select('color', array('Blue'=>'blue', 'Red'=>'red', 'Green'=>'green', 'Yellow'=>'yellow')) !!}
+            {!! Form::select('color', array('Blue'=>'blue', 'Red'=>'red', 'Green'=>'green', 'Yellow'=>'yellow'), null, array('class'=>'panel-black')) !!}
         </div>
 
         <div class="form-group">

@@ -1,5 +1,18 @@
 <div class="panel panel-default panel-black">
-    <div class="panel-heading panel-black-heading" id="panel-header-tasks"><b><i>Tasks</i></b></div>
+    <div class="panel-heading panel-black-heading" id="panel-header-tasks">
+        <b><i>Tasks</i></b>
+        <ul class="nav navbar navbar-right col-lg-3">
+            {!! Form::open(array('route' => 'filterTasks', 'class' => 'form', 'id' => 'stateFilter')) !!}
+            <select id="state" name="state" class="panel-black">
+                <option>Filter tasks by state</option>
+                <option value="all">All</option>
+                <option value="Pending">Pending</option>
+                <option value="In process">In process</option>
+                <option value="Completed">Completed</option>
+            </select>
+            {!! Form::close() !!}
+        </ul>
+    </div>
     <div class="panel-body" id="panel-body-tasks">
         <table class="table" id="accordion">
             <tr>
