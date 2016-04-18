@@ -6339,6 +6339,12 @@ body, .panel-black {
 
 }
 
+.select_black {
+  background-color: transparent !important;
+  color: #68C3A3 !important;
+  border-color:#68C3A3 !important;
+}
+
 /* Icons */
 
 .flaticon-close33 {

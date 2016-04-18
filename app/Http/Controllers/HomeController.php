@@ -2,10 +2,10 @@
 
 use App\Http\Requests;
 
+use App\Rel_Task_Tag;
 use App\Tag;
 use App\Task;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\DB;
 use Request;
 
 class HomeController extends Controller {
@@ -39,10 +39,10 @@ class HomeController extends Controller {
 	public function index()
 	{
 		$tags = Tag::where('owner_id', '=', Auth::user()->id)->get();
-
 		$tasks = Task::where('owner_id', '=', Auth::user()->id)->where('state', '!=', 'Completed')->orderBy('deadline', 'asc')->get();
+		$rel_tasks_tags = Rel_Task_Tag::all();
 
-		return view('home', compact('tags', 'tasks'));
+		return view('home', compact('tags', 'tasks', 'rel_tasks_tags'));
 	}
 
 	public function show(Request $request) 
@@ -50,6 +50,7 @@ class HomeController extends Controller {
 		$input = Request::all();
 		$state = $input['state'];
 		$tags = Tag::where('owner_id', '=', Auth::user()->id)->get();
+		$rel_tasks_tags = Rel_Task_Tag::all();
 
 		if ($state != 'all')
 		{
@@ -60,6 +61,6 @@ class HomeController extends Controller {
 			$tasks = Task::where('owner_id', '=', Auth::user()->id)->orderBy('deadline', 'asc')->get();
 		}
 
-		return view('home', compact('tags', 'tasks'));
+		return view('home', compact('tags', 'tasks', 'rel_tasks_tags'));
 	}
 }

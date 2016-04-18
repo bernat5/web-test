@@ -1,5 +1,5 @@
 <div class="panel panel-default panel-black">
-    <div class="panel-heading panel-black-heading" id="panel-header-tags"><b><i>Tags</i></b></div>
+    <div class="panel-heading panel-black-heading" id="panel-header-tags"><h3>Tags</h3></div>
     <div class="panel-body" id="panel-body-tags">
         <table class="table" id="accordion">
 
@@ -26,7 +26,7 @@
 
         </table>
 
-        <hr><hr><th><b><i>New Tag</i></b></th><hr>
+        <hr><hr><th><h4>New Tag</h4></th><hr>
 
         {!! Form::open(array('route' => 'storeTag', 'class' => 'form')) !!}
 

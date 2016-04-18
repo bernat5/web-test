@@ -1,11 +1,9 @@
 <?php namespace App\Http\Controllers;
 
 use App\Http\Requests;
-use App\Http\Controllers\Controller;
 
 use App\Tag;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Input;
 use Request;
 
 class TagController extends Controller {
@@ -17,9 +15,7 @@ class TagController extends Controller {
 	 */
 	public function index()
 	{
-		$tags = Tag::all();
-
-		return view('home', compact('tags'));
+		
 	}
 
 	/**
@@ -34,10 +30,9 @@ class TagController extends Controller {
 
 	/**
 	 * Store a newly created resource in storage.
-	 *
 	 * @return Response
 	 */
-	public function store(Request $request)
+	public function store()
 	{
 		$input = Request::all();
 		$date = date('Y-m-d H:i:s', time());
@@ -48,7 +43,7 @@ class TagController extends Controller {
 		$input['created_at'] = $date;
 		$input['updated_at'] = $date;
 
-		$tag = Tag::create($input);
+		Tag::create($input);
 		flash()->info('Tag successfully created!');
 
 

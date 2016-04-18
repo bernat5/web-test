@@ -17,7 +17,7 @@ Route::get('home', 'HomeController@index');
 
 /* Tasks routes */
 
-Route::get('delete_task/{id}',['uses' =>'TaskController@destroy']);
+Route::get('delete_task/{id}', ['uses' => 'TaskController@destroy']);
 
 Route::post('store_task', [
 	'as' => 'storeTask',
@@ -29,9 +29,16 @@ Route::post('filter_tasks', [
 	'uses' => 'HomeController@show'
 ]);
 
+Route::get('task_detail/{id}', ['uses' => 'TaskController@show']);
+
+Route::post('update_state/{id}', [
+	'as' => 'updateTaskState',
+	'uses' => 'TaskController@update'
+]);
+
 /* Tags routes */
 
-Route::get('delete_tag/{id}',['uses' =>'TagController@destroy']);
+Route::get('delete_tag/{id}', ['uses' => 'TagController@destroy']);
 
 Route::post('store_tag', [
 	'as' => 'storeTag',
