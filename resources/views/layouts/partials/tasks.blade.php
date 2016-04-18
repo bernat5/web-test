@@ -25,7 +25,7 @@
             @foreach($tasks as $task)
                 @if($task->deadline == '0000-00-00 00:00:00')
                     <tr>
-                        <td class="current-task"> <b><a href="{{ url('/task_detail/'.$task->id) }}"> {{ $task->title }} </a></b></td>
+                        <td class="current-task"> <b><a style="color: #d58512" href="{{ url('/task_detail/'.$task->id) }}"> {{ $task->title }} </a></b></td>
                         <td class="current-task">
                             @foreach($rel_tasks_tags as $rel)
                                 @if($rel->task_id == $task->id)
@@ -48,7 +48,7 @@
                 @else
                     @if ($task->deadline < \Carbon\Carbon::now())
                         <tr>
-                            <td class="past-task"> <b><a href="{{ url('/task_detail/'.$task->id) }}"> {{ $task->title }} </a></b></td>
+                            <td class="past-task"> <b><a style="color: #d58512" href="{{ url('/task_detail/'.$task->id) }}"> {{ $task->title }} </a></b></td>
                             <td class="current-task">
                                 @foreach($rel_tasks_tags as $rel)
                                     @if($rel->task_id == $task->id)
@@ -70,7 +70,7 @@
                         </tr>
                     @else
                         <tr>
-                            <td class="current-task"> <b><a href="{{ url('/task_detail/'.$task->id) }}"> {{ $task->title }} </a></b></td>
+                            <td class="current-task"> <b><a style="color: #d58512" href="{{ url('/task_detail/'.$task->id) }}"> {{ $task->title }} </a></b></td>
                             <td class="current-task">
                                 @foreach($rel_tasks_tags as $rel)
                                     @if($rel->task_id == $task->id)
