@@ -24,55 +24,55 @@
 						<div class="form-group">
 							<label class="col-md-4 control-label">Username</label>
 							<div class="col-md-6">
-								<input type="text" class="form-control" name="username" value="{{ old('username') }}">
+								<input type="text" class="form-control input-black" name="username" value="{{ old('username') }}">
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label class="col-md-4 control-label">Name</label>
 							<div class="col-md-6">
-								<input type="text" class="form-control" name="name" value="{{ old('name') }}">
+								<input type="text" class="form-control input-black" name="name" value="{{ old('name') }}">
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label class="col-md-4 control-label">First last name</label>
 							<div class="col-md-6">
-								<input type="text" class="form-control" name="lastname1" value="{{ old('lastname1') }}">
+								<input type="text" class="form-control input-black" name="lastname1" value="{{ old('lastname1') }}">
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label class="col-md-4 control-label">Second last name</label>
 							<div class="col-md-6">
-								<input type="text" class="form-control" name="lastname2" value="{{ old('lastname2') }}">
+								<input type="text" class="form-control input-black" name="lastname2" value="{{ old('lastname2') }}">
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label class="col-md-4 control-label">E-Mail Address</label>
 							<div class="col-md-6">
-								<input type="email" class="form-control" name="email" value="{{ old('email') }}">
+								<input type="email" class="form-control input-black" name="email" value="{{ old('email') }}">
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label class="col-md-4 control-label">Password</label>
 							<div class="col-md-6">
-								<input type="password" class="form-control" name="password">
+								<input type="password" class="form-control input-black" name="password">
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label class="col-md-4 control-label">Confirm Password</label>
 							<div class="col-md-6">
-								<input type="password" class="form-control" name="password_confirmation">
+								<input type="password" class="form-control input-black" name="password_confirmation">
 							</div>
 						</div>
 
 						<div class="form-group">
 							<div class="col-md-6 col-md-offset-4">
-								<button type="submit" class="btn btn-primary">
+								<button type="submit" class="btn btn-black">
 									Register
 								</button>
 							</div>

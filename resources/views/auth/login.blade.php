@@ -24,14 +24,14 @@
 						<div class="form-group">
 							<label class="col-md-4 control-label">E-Mail Address</label>
 							<div class="col-md-6">
-								<input type="email" class="form-control" name="email" value="{{ old('email') }}">
+								<input type="email" class="form-control input-black" name="email" value="{{ old('email') }}">
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label class="col-md-4 control-label">Password</label>
 							<div class="col-md-6">
-								<input type="password" class="form-control" name="password">
+								<input type="password" class="form-control input-black" name="password">
 							</div>
 						</div>
 
@@ -47,7 +47,7 @@
 
 						<div class="form-group">
 							<div class="col-md-6 col-md-offset-4">
-								<button type="submit" class="btn btn-primary">Login</button>
+								<button type="submit" class="btn btn-black">Login</button>
 
 								<p class="marg-top-20">Haven't got an account yet?<a class="btn btn-link" href="{{ url('/auth/register') }}">Register</a></p>
 							</div>
