@@ -68,7 +68,7 @@
                     <div class='col-md-4'>
                         <div class="form-group">
                             <div class='input-group date' id='datetimepicker'>
-                                <input placeholder="Deadline" type="datetime" required="required" name="deadline" class="form-control input-black"/>
+                                <input placeholder="Deadline" type="datetime" name="deadline" class="form-control input-black"/>
                                     <span class="input-group-addon">
                                         <span class="glyphicon glyphicon-calendar"></span>
                                     </span>

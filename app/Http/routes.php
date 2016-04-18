@@ -24,6 +24,11 @@ Route::post('store_task', [
 	'uses' => 'TaskController@store'
 ]);
 
+Route::post('filter_tasks', [
+	'as' => 'filterTasks', 
+	'uses' => 'HomeController@show'
+]);
+
 /* Tags routes */
 
 Route::get('delete_tag/{id}',['uses' =>'TagController@destroy']);

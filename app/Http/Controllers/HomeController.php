@@ -1,9 +1,12 @@
 <?php namespace App\Http\Controllers;
 
+use App\Http\Requests;
+
 use App\Tag;
 use App\Task;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Request;
 
 class HomeController extends Controller {
 
@@ -42,4 +45,21 @@ class HomeController extends Controller {
 		return view('home', compact('tags', 'tasks'));
 	}
 
+	public function show(Request $request) 
+	{
+		$input = Request::all();
+		$state = $input['state'];
+		$tags = Tag::where('owner_id', '=', Auth::user()->id)->get();
+
+		if ($state != 'all')
+		{
+			$tasks = Task::where('owner_id', '=', Auth::user()->id)->where('state', '=', $state)->orderBy('deadline', 'asc')->get();
+		}
+		else
+		{
+			$tasks = Task::where('owner_id', '=', Auth::user()->id)->orderBy('deadline', 'asc')->get();
+		}
+
+		return view('home', compact('tags', 'tasks'));
+	}
 }
