@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="819b1b22-1599-4fe3-b010-d9df40e33c11" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/partials/tasks.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/tasks.blade.php" />
     </list>
     <ignored path="web-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -389,7 +386,7 @@
       <option name="presentableId" value="Default" />
       <updated>1459878206763</updated>
       <workItem from="1459878207962" duration="46754000" />
-      <workItem from="1460675768410" duration="9209000" />
+      <workItem from="1460675768410" duration="9238000" />
     </task>
     <task id="LOCAL-00001" summary="Inicial">
       <created>1460657366989</created>
@@ -440,11 +437,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460961930902</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Controllers improvement">
+      <created>1460969103169</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1460969103169</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55963000" />
+    <option name="totallyTimeSpent" value="55992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -511,7 +515,8 @@
     <MESSAGE value="More config" />
     <MESSAGE value="Color selection bug" />
     <MESSAGE value="Tasks filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tasks filter" />
+    <MESSAGE value="Controllers improvement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controllers improvement" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
