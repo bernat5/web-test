@@ -3,6 +3,7 @@
 use App\Http\Requests;
 
 use App\Tag;
+use App\Rel_Task_Tag;
 use Illuminate\Support\Facades\Auth;
 use Request;
 
@@ -35,17 +36,21 @@ class TagController extends Controller {
 	public function store()
 	{
 		$input = Request::all();
-		$date = date('Y-m-d H:i:s', time());
+		$title = $input['title'];
 
-		$user_id = Auth::user()->id;
+		if (Tag::where('title', '=', $title)->get()->first()) flash()->error('Already existing tag with this title!!!');
+		else
+		{
+			$date = date('Y-m-d H:i:s', time());
+			$user_id = Auth::user()->id;
 
-		$input['owner_id'] = $user_id;
-		$input['created_at'] = $date;
-		$input['updated_at'] = $date;
+			$input['owner_id'] = $user_id;
+			$input['created_at'] = $date;
+			$input['updated_at'] = $date;
 
-		Tag::create($input);
-		flash()->info('Tag successfully created!');
-
+			Tag::create($input);
+			flash()->info('Tag successfully created!');
+		}
 
 		return redirect('home');
 	}
@@ -91,10 +96,17 @@ class TagController extends Controller {
 	 */
 	public function destroy($id)
 	{
-		$tag = Tag::where('id', '=', $id)->get();
-		$tag = $tag->first();
-		$tag->delete();
-		flash()->info('Tag successfully deleted!');
+		$rel = Rel_Task_Tag::where('tag_id', '=', $id)->get()->first();
+
+		if ($rel) flash()->error('This tag cannot be deleted because is related to a task!!!');
+		else
+		{
+			$tag = Tag::where('id', '=', $id)->get();
+			$tag = $tag->first();
+			$tag->delete();
+			flash()->info('Tag successfully deleted!');
+		}
+
 		return redirect('home');
 	}
 

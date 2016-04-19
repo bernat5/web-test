@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="819b1b22-1599-4fe3-b010-d9df40e33c11" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Rel_Task_Tag.php" afterPath="$PROJECT_DIR$/app/Rel_Task_Tag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TagController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TagController.php" />
     </list>
     <ignored path="web-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,42 +80,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
+      <file leaf-file-name="TagController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TagController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+            <state relative-caret-position="1470">
+              <caret line="98" column="69" selection-start-line="98" selection-start-column="69" selection-end-line="98" selection-end-column="69" />
               <folding>
                 <element signature="e#39#61#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="74" column="74" selection-start-line="74" selection-start-column="74" selection-end-line="74" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tasks.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/tasks.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="120" column="81" selection-start-line="120" selection-start-column="81" selection-end-line="120" selection-end-column="81" />
-              <folding>
-                <marker date="1461023808000" expanded="true" signature="6275:6418" placeholder="..." />
-                <marker date="1461023808000" expanded="true" signature="6287:6416" placeholder="..." />
-                <marker date="1461023808000" expanded="true" signature="6320:6415" placeholder="..." />
-                <marker date="1461023808000" expanded="true" signature="6539:6717" placeholder="..." />
-                <marker date="1461023808000" expanded="true" signature="6555:6715" placeholder="..." />
-                <marker date="1461023808000" expanded="true" signature="6594:6714" placeholder="..." />
-                <marker date="1461023808000" expanded="true" signature="8488:8557" placeholder="..." />
-                <marker date="1461023808000" expanded="true" signature="8502:8555" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -162,7 +133,6 @@
         <option value="$PROJECT_DIR$/resources/views/task.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/partials/taskdetail.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TagController.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
@@ -170,6 +140,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/partials/tasks.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TagController.php" />
       </list>
     </option>
   </component>
@@ -336,7 +307,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="t&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/TaskController.php&#10;reg&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/auth/register.blade.php&#10;ta&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/TaskController.php&#10;r&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/routes.php&#10;regis&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Services/Registrar.php&#10;tasks&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/layouts/partials/tasks.blade.php&#10;task&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/TaskController.php&#10;hom&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/HomeController.php&#10;rou&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/routes.php&#10;app&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/public/css/app.css&#10;tags&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/layouts/partials/tags.blade.php&#10;Rel_&#9;null&#9;null&#10;tas&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/layouts/partials/tasks.blade.php&#10;tag&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/layouts/partials/tags.blade.php&#10;home&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/home.blade.php&#10;h&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/home.blade.php&#10;re&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/auth/register.blade.php&#10;route&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/routes.php&#10;logout&#9;null&#9;null&#10;/auth/&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/auth&#10;CreateUser&#9;null&#9;null&#10;CreateUse&#9;null&#9;null&#10;migration&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migration.php&#10;plugins&#9;ACTION&#9;WelcomeScreen.Plugins" />
+    <property name="SearchEverywhereHistoryKey" value="tag&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/TagController.php&#10;t&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/TaskController.php&#10;reg&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/auth/register.blade.php&#10;ta&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/TaskController.php&#10;r&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/routes.php&#10;regis&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Services/Registrar.php&#10;tasks&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/layouts/partials/tasks.blade.php&#10;task&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/TaskController.php&#10;hom&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/HomeController.php&#10;rou&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/routes.php&#10;app&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/public/css/app.css&#10;tags&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/layouts/partials/tags.blade.php&#10;Rel_&#9;null&#9;null&#10;tas&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/layouts/partials/tasks.blade.php&#10;home&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/home.blade.php&#10;h&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/home.blade.php&#10;re&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/auth/register.blade.php&#10;route&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/routes.php&#10;logout&#9;null&#9;null&#10;/auth/&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/auth&#10;CreateUser&#9;null&#9;null&#10;CreateUse&#9;null&#9;null&#10;migration&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migration.php&#10;plugins&#9;ACTION&#9;WelcomeScreen.Plugins" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RunManager">
@@ -386,7 +357,7 @@
       <updated>1459878206763</updated>
       <workItem from="1459878207962" duration="46754000" />
       <workItem from="1460675768410" duration="26958000" />
-      <workItem from="1461021551013" duration="2234000" />
+      <workItem from="1461021551013" duration="2919000" />
     </task>
     <task id="LOCAL-00001" summary="Inicial">
       <created>1460657366989</created>
@@ -472,11 +443,18 @@
       <option name="project" value="LOCAL" />
       <updated>1461015989261</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Task and tags relation bug solved">
+      <created>1461024025410</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1461024025410</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75946000" />
+    <option name="totallyTimeSpent" value="76631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -485,6 +463,7 @@
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18984374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -492,7 +471,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -548,7 +526,8 @@
     <MESSAGE value="First beta" />
     <MESSAGE value="Workspace stuff" />
     <MESSAGE value="Style improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style improvements" />
+    <MESSAGE value="Task and tags relation bug solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task and tags relation bug solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -714,6 +693,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -774,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TagController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Tag.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -804,14 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" column="74" selection-start-line="74" selection-start-column="74" selection-end-line="74" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -826,24 +791,6 @@
           <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
           <folding>
             <element signature="e#7#392#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/taskdetail.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding>
-            <element signature="e#39#61#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -887,6 +834,42 @@
             <marker date="1461023808000" expanded="true" signature="6594:6714" placeholder="..." />
             <marker date="1461023808000" expanded="true" signature="8488:8557" placeholder="..." />
             <marker date="1461023808000" expanded="true" signature="8502:8555" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="74" column="74" selection-start-line="74" selection-start-column="74" selection-end-line="74" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding>
+            <element signature="e#39#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/taskdetail.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TagController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="98" column="69" selection-start-line="98" selection-start-column="69" selection-end-line="98" selection-end-column="69" />
+          <folding>
+            <element signature="e#39#61#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
