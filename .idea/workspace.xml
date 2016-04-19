@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="819b1b22-1599-4fe3-b010-d9df40e33c11" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TagController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TagController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" />
     </list>
     <ignored path="web-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,20 +73,55 @@
       <file leaf-file-name="taskdetail.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/taskdetail.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="405">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#h5#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#3;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TagController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TagController.php">
+      <file leaf-file-name="TaskController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="98" column="69" selection-start-line="98" selection-start-column="69" selection-end-line="98" selection-end-column="69" />
+            <state relative-caret-position="2265">
+              <caret line="151" column="59" selection-start-line="151" selection-start-column="59" selection-end-line="151" selection-end-column="59" />
               <folding>
                 <element signature="e#39#61#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TagController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TagController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="40" column="120" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="120" />
+              <folding>
+                <element signature="e#39#61#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tasks.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/tasks.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+              <folding>
+                <marker date="1461024892000" expanded="true" signature="6281:6424" placeholder="..." />
+                <marker date="1461024892000" expanded="true" signature="6293:6422" placeholder="..." />
+                <marker date="1461024892000" expanded="true" signature="6326:6421" placeholder="..." />
+                <marker date="1461024892000" expanded="true" signature="6545:6723" placeholder="..." />
+                <marker date="1461024892000" expanded="true" signature="6561:6721" placeholder="..." />
+                <marker date="1461024892000" expanded="true" signature="6600:6720" placeholder="..." />
+                <marker date="1461024892000" expanded="true" signature="8494:8563" placeholder="..." />
+                <marker date="1461024892000" expanded="true" signature="8508:8561" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -132,15 +167,15 @@
         <option value="$PROJECT_DIR$/public/css/app.css" />
         <option value="$PROJECT_DIR$/resources/views/task.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/partials/taskdetail.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/app/Rel_Task_Tag.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/partials/tasks.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TagController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/partials/tasks.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/partials/taskdetail.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" />
       </list>
     </option>
   </component>
@@ -207,6 +242,64 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web-test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -307,7 +400,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="tag&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/TagController.php&#10;t&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/TaskController.php&#10;reg&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/auth/register.blade.php&#10;ta&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/TaskController.php&#10;r&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/routes.php&#10;regis&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Services/Registrar.php&#10;tasks&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/layouts/partials/tasks.blade.php&#10;task&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/TaskController.php&#10;hom&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/HomeController.php&#10;rou&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/routes.php&#10;app&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/public/css/app.css&#10;tags&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/layouts/partials/tags.blade.php&#10;Rel_&#9;null&#9;null&#10;tas&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/layouts/partials/tasks.blade.php&#10;home&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/home.blade.php&#10;h&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/home.blade.php&#10;re&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/auth/register.blade.php&#10;route&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/routes.php&#10;logout&#9;null&#9;null&#10;/auth/&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/auth&#10;CreateUser&#9;null&#9;null&#10;CreateUse&#9;null&#9;null&#10;migration&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migration.php&#10;plugins&#9;ACTION&#9;WelcomeScreen.Plugins" />
+    <property name="SearchEverywhereHistoryKey" value="ta&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/TagController.php&#10;tas&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/TaskController.php&#10;tag&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/TagController.php&#10;t&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/TaskController.php&#10;reg&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/auth/register.blade.php&#10;r&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/routes.php&#10;regis&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Services/Registrar.php&#10;tasks&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/layouts/partials/tasks.blade.php&#10;task&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/TaskController.php&#10;hom&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/Controllers/HomeController.php&#10;rou&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/routes.php&#10;app&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/public/css/app.css&#10;tags&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/layouts/partials/tags.blade.php&#10;Rel_&#9;null&#9;null&#10;home&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/home.blade.php&#10;h&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/home.blade.php&#10;re&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/auth/register.blade.php&#10;route&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/app/Http/routes.php&#10;logout&#9;null&#9;null&#10;/auth/&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/resources/views/auth&#10;CreateUser&#9;null&#9;null&#10;CreateUse&#9;null&#9;null&#10;migration&#9;FILE&#9;file:///Users/bernat/PhpstormProjects/web-test/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migration.php&#10;plugins&#9;ACTION&#9;WelcomeScreen.Plugins" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RunManager">
@@ -357,7 +450,7 @@
       <updated>1459878206763</updated>
       <workItem from="1459878207962" duration="46754000" />
       <workItem from="1460675768410" duration="26958000" />
-      <workItem from="1461021551013" duration="2919000" />
+      <workItem from="1461021551013" duration="4515000" />
     </task>
     <task id="LOCAL-00001" summary="Inicial">
       <created>1460657366989</created>
@@ -450,11 +543,25 @@
       <option name="project" value="LOCAL" />
       <updated>1461024025410</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Tags creation and deletion control">
+      <created>1461024738233</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1461024738233</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Deadlines format">
+      <created>1461025258387</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1461025258387</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76631000" />
+    <option name="totallyTimeSpent" value="78227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -527,7 +634,9 @@
     <MESSAGE value="Workspace stuff" />
     <MESSAGE value="Style improvements" />
     <MESSAGE value="Task and tags relation bug solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task and tags relation bug solved" />
+    <MESSAGE value="Tags creation and deletion control" />
+    <MESSAGE value="Deadlines format" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deadlines format" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -657,6 +766,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="701">
           <caret line="365" column="1" selection-start-line="365" selection-start-column="1" selection-end-line="365" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -821,23 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/tasks.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="120" column="81" selection-start-line="120" selection-start-column="81" selection-end-line="120" selection-end-column="81" />
-          <folding>
-            <marker date="1461023808000" expanded="true" signature="6275:6418" placeholder="..." />
-            <marker date="1461023808000" expanded="true" signature="6287:6416" placeholder="..." />
-            <marker date="1461023808000" expanded="true" signature="6320:6415" placeholder="..." />
-            <marker date="1461023808000" expanded="true" signature="6539:6717" placeholder="..." />
-            <marker date="1461023808000" expanded="true" signature="6555:6715" placeholder="..." />
-            <marker date="1461023808000" expanded="true" signature="6594:6714" placeholder="..." />
-            <marker date="1461023808000" expanded="true" signature="8488:8557" placeholder="..." />
-            <marker date="1461023808000" expanded="true" signature="8502:8555" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -846,28 +939,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/tasks.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        <state relative-caret-position="185">
+          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
           <folding>
-            <element signature="e#39#61#0#PHP" expanded="true" />
+            <marker date="1461024892000" expanded="true" signature="6281:6424" placeholder="..." />
+            <marker date="1461024892000" expanded="true" signature="6293:6422" placeholder="..." />
+            <marker date="1461024892000" expanded="true" signature="6326:6421" placeholder="..." />
+            <marker date="1461024892000" expanded="true" signature="6545:6723" placeholder="..." />
+            <marker date="1461024892000" expanded="true" signature="6561:6721" placeholder="..." />
+            <marker date="1461024892000" expanded="true" signature="6600:6720" placeholder="..." />
+            <marker date="1461024892000" expanded="true" signature="8494:8563" placeholder="..." />
+            <marker date="1461024892000" expanded="true" signature="8508:8561" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/taskdetail.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="405">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#h5#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#3;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TagController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="98" column="69" selection-start-line="98" selection-start-column="69" selection-end-line="98" selection-end-column="69" />
+        <state relative-caret-position="260">
+          <caret line="40" column="120" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="120" />
+          <folding>
+            <element signature="e#39#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2265">
+          <caret line="151" column="59" selection-start-line="151" selection-start-column="59" selection-end-line="151" selection-end-column="59" />
           <folding>
             <element signature="e#39#61#0#PHP" expanded="true" />
           </folding>

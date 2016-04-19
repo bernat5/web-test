@@ -37,38 +37,16 @@ class TaskController extends Controller {
 	public function store()
 	{
 		$input = Request::all();
-		$tags = ($input['tags']);
-		$date = date('Y-m-d H:i:s', time());
-		$user_id = Auth::user()->id;
+		$title = $input['title'];
 
-		if ($input['deadline'] == null)
-		{
-			$input['owner_id'] = $user_id;
-			$input['created_at'] = $date;
-			$input['updated_at'] = $date;
-
-			$task = Task::create($input);
-
-			foreach ($tags as $tag)
-			{
-				$data['task_id'] = $task->id;
-				$data['tag_id'] = $tag;
-				$data['created_at'] = $date;
-				$data['updated_at'] = $date;
-
-				Rel_Task_Tag::create($data);
-			}
-
-			flash()->info('Task successfully created!');
-		}
+		if (Task::where('title', '=', $title)->get()->first()) flash()->error('Already existing task with this title!!!');
 		else
 		{
-			$deadline = date_create_from_format('d/m/Y H:i', $input['deadline']);
-			$input['deadline'] = date_format($deadline, 'Y-m-d H:i:s');
+			$tags = ($input['tags']);
+			$date = date('Y-m-d H:i:s', time());
+			$user_id = Auth::user()->id;
 
-			if ($input['deadline'] < $date) flash()->error('Please, insert a valid deadline!');
-
-			else
+			if ($input['deadline'] == null)
 			{
 				$input['owner_id'] = $user_id;
 				$input['created_at'] = $date;
@@ -85,7 +63,35 @@ class TaskController extends Controller {
 
 					Rel_Task_Tag::create($data);
 				}
+
 				flash()->info('Task successfully created!');
+			}
+			else
+			{
+				$deadline = date_create_from_format('d/m/Y H:i', $input['deadline']);
+				$input['deadline'] = date_format($deadline, 'Y-m-d H:i:s');
+
+				if ($input['deadline'] < $date) flash()->error('Please, insert a valid deadline!');
+
+				else
+				{
+					$input['owner_id'] = $user_id;
+					$input['created_at'] = $date;
+					$input['updated_at'] = $date;
+
+					$task = Task::create($input);
+
+					foreach ($tags as $tag)
+					{
+						$data['task_id'] = $task->id;
+						$data['tag_id'] = $tag;
+						$data['created_at'] = $date;
+						$data['updated_at'] = $date;
+
+						Rel_Task_Tag::create($data);
+					}
+					flash()->info('Task successfully created!');
+				}
 			}
 		}
 
@@ -100,8 +106,7 @@ class TaskController extends Controller {
 	 */
 	public function show($id)
 	{
-		$task = Task::where('id', '=', $id)->get();
-		$task = $task->first();
+		$task = Task::where('id', '=', $id)->get()->first();
 		$rel_tasks_tags = Rel_Task_Tag::where('task_id', '=', $task->id)->get();
 		return view('task', compact('task', 'rel_tasks_tags'));
 	}
@@ -143,9 +148,8 @@ class TaskController extends Controller {
 	 */
 	public function destroy($id)
 	{
-		$task = Task::where('id', '=', $id)->get();
-		$task = $task->first();
-		$task->delete();
+		Task::where('id', '=', $id)->get()->first()->delete();
+		Rel_Task_Tag::where('task_id', '=', $id)->delete();
 		flash()->info('Task successfully deleted!');
 		return redirect('home');
 	}
