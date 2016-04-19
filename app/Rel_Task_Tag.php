@@ -10,7 +10,7 @@ class Rel_Task_Tag extends Model {
 
     public function getTag()
     {
-        return $this->belongsTo('App\Tag', 'id');
+        return $this->belongsTo('App\Tag', 'tag_id');
     }
 
 }
