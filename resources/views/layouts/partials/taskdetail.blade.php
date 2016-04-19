@@ -22,7 +22,13 @@
         @endforeach
         <br><br>
         <h4>Deadline</h4>
-        <h5 style="color:whitesmoke">{{ $task->deadline }}</h5>
+        @if ($task->deadline == '0000-00-00 00:00:00')
+            <h5 style="color:whitesmoke">No deadline</h5>
+        @elseif ($task->deadline < \Carbon\Carbon::now())
+            <h5 style="color:red">{{ $task->deadline }}</h5>
+        @else
+            <h5 style="color:whitesmoke">{{ $task->deadline }}</h5>
+        @endif
         <br>
         <h4>State</h4>
         {!! Form::open(array('route' => array('updateTaskState', $task->id), 'class' => 'form', 'id' => 'updateState')) !!}
