@@ -137,6 +137,7 @@ class TaskController extends Controller {
 		$task->state = $state;
 		$task->save();
 
+		flash()->info('Task state successfully updated!');
 		return redirect()->action('TaskController@show', ['id' => $task->id]);
 	}
 

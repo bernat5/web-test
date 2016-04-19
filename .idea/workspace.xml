@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="819b1b22-1599-4fe3-b010-d9df40e33c11" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" />
     </list>
     <ignored path="web-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TaskController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="742">
-              <caret line="151" column="59" selection-start-line="151" selection-start-column="59" selection-end-line="151" selection-end-column="59" />
+            <state relative-caret-position="416">
+              <caret line="139" column="55" selection-start-line="139" selection-start-column="55" selection-end-line="139" selection-end-column="55" />
               <folding>
                 <element signature="e#39#61#0#PHP" expanded="true" />
               </folding>
@@ -91,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Registrar.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Registrar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Services/Registrar.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
@@ -308,7 +309,7 @@
       <updated>1459878206763</updated>
       <workItem from="1459878207962" duration="46754000" />
       <workItem from="1460675768410" duration="26958000" />
-      <workItem from="1461021551013" duration="5501000" />
+      <workItem from="1461021551013" duration="5723000" />
     </task>
     <task id="LOCAL-00001" summary="Inicial">
       <created>1460657366989</created>
@@ -422,11 +423,18 @@
       <option name="project" value="LOCAL" />
       <updated>1461026528785</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Workspace">
+      <created>1461088038616</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1461088038616</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79213000" />
+    <option name="totallyTimeSpent" value="79435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -494,7 +502,6 @@
     <MESSAGE value="Color selection bug" />
     <MESSAGE value="Tasks filter" />
     <MESSAGE value="Controllers improvement" />
-    <MESSAGE value="Workspace" />
     <MESSAGE value="First beta" />
     <MESSAGE value="Workspace stuff" />
     <MESSAGE value="Style improvements" />
@@ -502,7 +509,8 @@
     <MESSAGE value="Tags creation and deletion control" />
     <MESSAGE value="Deadlines format" />
     <MESSAGE value="Task creation and deletion control" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task creation and deletion control" />
+    <MESSAGE value="Workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workspace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -800,16 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="151" column="59" selection-start-line="151" selection-start-column="59" selection-end-line="151" selection-end-column="59" />
-          <folding>
-            <element signature="e#39#61#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/taskdetail.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -851,6 +849,16 @@
         <state relative-caret-position="540">
           <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="139" column="55" selection-start-line="139" selection-start-column="55" selection-end-line="139" selection-end-column="55" />
+          <folding>
+            <element signature="e#39#61#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
